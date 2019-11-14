@@ -1,8 +1,8 @@
 "use strict";   //  defines that JavaScript code should be executed in "strict mode".
-var user = randomNumber();  //  declare variable user wich will store a random number between 1 - 11. 
-var cpu = randomNumber();   
+var user = randomNumber();  //  declare variable user wich will store a random number between 1 - 11.
+var cpu = randomNumber();  //  declare variable cpu wich will store a random number between 1 - 11.
 var userScore = user;   //  variable wich will store the total user score. 
-var cpuScore = cpu;
+var cpuScore = cpu;  //  variable wich will store the total cpu score.
 // call function print and give it the argument inside the parenthesis.
 print("Player drew " + user + "\nPlayer score = " + userScore + "\nComputer drew " + cpu + "\nComputer score = " + cpuScore);
 cpu = randomNumber(); //  store a new random number to cpu.
